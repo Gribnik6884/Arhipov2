@@ -115,7 +115,7 @@ input
     align-self: center;
     max-width: 700px;
     width: 100%;
-    background: linear-gradient(to right, #2bbed8, #de63e9);
+    background: linear-gradient(to top, #ff0000, #3700ff, #ffffff);
     border-radius: 6px;
     padding-bottom: 20px;
 }
