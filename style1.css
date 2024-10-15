@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 body
 {
     display: flex;
@@ -8,12 +7,11 @@ body
     font-family: Montserrat;
     text-align: left;
 }
-
 header
 {
     display: block;
     width: 100%;
-    background-color: #23bdd1;
+    background: rgba(0, 0, 0, 0.1);
     height: 90px;
 }
 
@@ -34,10 +32,13 @@ nav ul
 nav ul a
 {
 
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: 500;
-    transition: ease-out .2s;
+
 }
 
 nav ul a:hover
@@ -50,7 +51,7 @@ nav ul a:hover
 .logo
 {
     display: flex;
-    gap: 800px;
+    gap: 850px;
     color: #000000;
 }
 
@@ -115,7 +116,7 @@ input
     align-self: center;
     max-width: 700px;
     width: 100%;
-    background: linear-gradient(to top, #ff0000, #3700ff, #ffffff);
+    background: linear-gradient(to top, #808080, #A9A9A9, #DCDCDC);
     border-radius: 6px;
     padding-bottom: 20px;
 }
@@ -209,12 +210,12 @@ td
     font-weight: 700;
 }
 
-.ch
+.color1
 {
     background-color: #22e7ee;
 }
 
-.nch
+.color2
 {
     background-color: #d870be;
 }
@@ -223,7 +224,7 @@ footer
 {
     height: 250px;
     width: 100%;
-    background-color: #e77cc4;
+    background-color: #696969;
     margin-top: 150px;
     font-size: large;
     font-weight: bold;
@@ -231,6 +232,6 @@ footer
 
 .padval p
 {
-    margin-left: 20px;
+    margin-left: 850px;
 
 }
