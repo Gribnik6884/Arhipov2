@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Montserrat;
+    text-align: left;
+    text-decoration: none;
+}
+header
+{
+    display: block;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    height: 90px;
+}
+
+nav ul
+{
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px
+    text-decoration: none;
+    
+}
+
+nav ul
+{
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+nav ul a
+{
+
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+
+}
+
+nav ul a:hover
+{
+
+}
+
+
+.logo
+{
+    display: flex;
+    gap: 850px;
+    color: #000000;
+}
+
+.logoimg
+{
+    width: 50px;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+main
+{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#image
+{
+    width: 450px;
+}
+
+.map
+{
+    margin: 0;
+}
+
+.text
+{
+    font-size: 200px;
+}
+
+body
+{
+    font-family: Montserrat;
+}
+
+li
+{
+    width: 450px;
+    text-decoration: none;
+
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    gap: 25px;
+}
+
+input
+{
+    height: 45px;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.forma
+{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 700px;
+    width: 100%;
+    background: linear-gradient(to top, #808080, #A9A9A9, #DCDCDC);
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+
+.forma h1
+{
+     align-self: center;
+}
+
+.forma form
+{
+    align-self: center;
+    max-width: 650px;
+    width: 100%;
+}
+
+.forma label
+{
+    display: flex;
+    align-items: center;
+    margin-right: 500px;
+}
+
+.forma input
+{
+    max-width: 600px;
+    width: 100%;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+.pol
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.pol input
+{
+    width: 50px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.forma select, textarea
+{
+    height: 70px;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 600px;
+    width: 100%;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+.checkbox input
+{
+    margin-right: 30px;
+}
+
+.button
+{
+    cursor: pointer;
+}
+
+.button:hover
+{
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.55);
+}
+
+table
+{
+    border: 1px solid black;
+    margin: 20px 0;
+}
+
+th
+{
+    border: 1px solid black;
+    font-weight: 700;
+}
+
+td
+{
+    border: 1px solid black;
+    font-weight: 700;
+}
+
+.color1
+{
+    background-color: #22e7ee;
+}
+
+.color2
+{
+    background-color: #d870be;
+}
+
+footer
+{
+    height: 100px;
+    width: 100%;
+    background-color: #696969;
+    margin-top: 150px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.padval p
+{
+    margin-left: 850px;
+
+}
