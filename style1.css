@@ -1,236 +1,207 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-body
-{
+
+body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: Montserrat;
-    text-align: left;
+    background-color: #2F4F4F;
+    line-height: 1.6;
 }
-header
-{
-    display: block;
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    background: rgba(0, 0, 0, 0.1);
+    background: linear-gradient(#FFFFFF, #C0C0C0);
     height: 90px;
+    padding: 0 20px;
 }
 
-nav ul
-{
-    float: right;
-    margin-right: 50px;
-    margin-top: 30px
-    
+.logo {
+    display: flex;
+    align-items: center;
+    color: #000000;
 }
 
-nav ul
-{
-    display: block;
-    overflow: hidden;
+
+.kartinka{
+    width: 900px;
+    height: 477px;
 }
 
-nav ul a
-{
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
 
-    width: 300px;
-    height: 150px;
+nav ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul a {
+    padding: 10px 20px;
     border-radius: 15px;
     background-color: rgb(187, 185, 185);
     text-decoration: none;
-
+    color: black;
+    transition: background-color 0.3s ease;
 }
 
-nav ul a:hover
-{
+nav ul a:hover {
     background-color: #59666b;
     color: #ffffff;
 }
 
-
-.logo
-{
-    display: flex;
-    gap: 850px;
-    color: #000000;
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: linear-gradient(to top, #808080, #A9A9A9, #DCDCDC);
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-.logoimg
-{
-    width: 50px;
-    margin-left: 20px;
-    padding-top: 15px;
+.logo h1{
+    margin-left: 500px;
 }
 
-main
-{
-    max-width: 960px;
-    margin: 0 auto;
+h1, h2 {
+    text-align: center;
+    color: #ffffff;
 }
 
-#image
-{
-    width: 450px;
+ul {
+    list-style: none;
+    padding: 0;
 }
 
-.map
-{
-    margin: 0;
+ul li {
+    background-color: #7f9b8b;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border-left: 5px solid #40583f;
 }
 
-.text
-{
-    font-size: 200px;
-}
-
-body
-{
-    font-family: Montserrat;
-}
-
-li
-{
-    width: 450px;
-}
-
-form
-{
+form {
     display: flex;
     flex-direction: column;
     max-width: 450px;
-    gap: 25px;
-}
-
-input
-{
-    height: 45px;
-    border-radius: 6px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.forma
-{
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    max-width: 700px;
-    width: 100%;
-    background: linear-gradient(to top, #808080, #A9A9A9, #DCDCDC);
-    border-radius: 6px;
-    padding-bottom: 20px;
-}
-
-.forma h1
-{
-     align-self: center;
-}
-
-.forma form
-{
-    align-self: center;
-    max-width: 650px;
-    width: 100%;
-}
-
-.forma label
-{
-    display: flex;
-    align-items: center;
-    margin-right: 500px;
-}
-
-.forma input
-{
-    max-width: 600px;
-    width: 100%;
-    align-self: center;
+    margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 6px;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccddee;
+    font-size: 1rem;
+}
+
+form input[type="radio"], form input[type="checkbox"] {
+    width: auto;
+}
+
+form button {
+    padding: 10px;
+    background-color: #317049;
+    color: white;
     border: none;
-}
-
-.pol
-{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.pol input
-{
-    width: 50px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-.forma select, textarea
-{
-    height: 70px;
     border-radius: 6px;
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 600px;
-    width: 100%;
-    align-self: center;
-    background-color: rgba(255, 255, 255, 0.5);
-    border: none;
-}
-
-.checkbox input
-{
-    margin-right: 30px;
-}
-
-.button
-{
     cursor: pointer;
 }
 
-.button:hover
-{
-    border: 3px solid rgba(255, 255, 255, 0.6);
-    background-color: rgba(255, 255, 255, 0.55);
+form button:hover {
+    background-color: #74a072;
 }
 
-table
-{
-    border: 1px solid black;
+table {
+    width: 100%;
+    border-collapse: collapse;
     margin: 20px 0;
 }
 
-th
-{
-    border: 1px solid black;
-    font-weight: 700;
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
 }
 
-td
-{
-    border: 1px solid black;
-    font-weight: 700;
+th {
+    background-color: #f4f4f4;
 }
 
-.color1
-{
-    background-color: #22e7ee;
+tr:nth-child(even) {
+    background-color: #f9f9f9;
 }
 
-.color2
-{
-    background-color: #d870be;
+tr:hover {
+    background-color: #f1f1f1;
 }
 
-footer
-{
+footer {
     height: 100px;
     width: 100%;
     background-color: #696969;
-    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
     font-size: large;
     font-weight: bold;
 }
 
-.padval p
-{
-    margin-left: 50px;
+/* モバイルファーストでのスタイル調整 */
+@media (max-width: 768px) {
+    main{
+        margin-top: 150px;
+    }
+    
+    
+    
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    #image {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+    }
+    .kartinka{
+        width: 370px;
+        height: 150px;
+    }
+
+    .logo h1{
+        margin-left: 50px;
+    }
 
 }
