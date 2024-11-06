@@ -1,57 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 body
 {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: Montserrat;
     text-align: left;
-    text-decoration: none;
-    background-color: #2F4F4F;
 }
-
-header{
+header
+{
     display: block;
     width: 100%;
-    background: linear-gradient(#FFFFFF,#C0C0C0 );
+    background: rgba(0, 0, 0, 0.1);
     height: 90px;
-
 }
 
-
-ul{
-    list-style: none;
-    margin: 0;
-    padding:20px;
+nav ul
+{
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px
+    
 }
 
-header a{
+nav ul
+{
+    display: block;
+    overflow: hidden;
+}
 
-    font-size: 20px;
-    padding: 20px;
-    color: #696969;
-    border-radius: 10px;
-    background-color: whitesmoke;
-    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+nav ul a
+{
+
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: rgb(187, 185, 185);
     text-decoration: none;
+
 }
 
-ul a:hover
+nav ul a:hover
 {
     background-color: #59666b;
     color: #ffffff;
-    text-decoration: none;
 }
 
-li{
-    display: inline;
-}
-
-li1{
-    display: inline;
-}
 
 .logo
 {
-
     display: flex;
     gap: 850px;
     color: #000000;
@@ -59,23 +56,57 @@ li1{
 
 .logoimg
 {
-    position: top 5px;
-    width: 100px;
+    width: 50px;
     margin-left: 20px;
     padding-top: 15px;
 }
+
 main
 {
     max-width: 960px;
     margin: 0 auto;
 }
 
+#image
+{
+    width: 450px;
+}
 
+.map
+{
+    margin: 0;
+}
 
+.text
+{
+    font-size: 200px;
+}
 
+body
+{
+    font-family: Montserrat;
+}
 
+li
+{
+    width: 450px;
+}
 
+form
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    gap: 25px;
+}
 
+input
+{
+    height: 45px;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 .forma
 {
@@ -200,6 +231,6 @@ footer
 
 .padval p
 {
-    margin-left: 850px;
+    margin-left: 50px;
 
 }
