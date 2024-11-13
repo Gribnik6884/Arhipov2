@@ -167,6 +167,14 @@ footer {
     font-weight: bold;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    max-width: 920px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 /* モバイルファーストでのスタイル調整 */
 @media (max-width: 768px) {
     main{
