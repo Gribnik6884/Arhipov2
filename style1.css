@@ -185,9 +185,16 @@ footer {
         gap: 5px;
     }
 
+    ul{
+        margin-top: 500px;
+    }
+
     .container {
         width: 95%;
         padding: 10px;
+    }
+    .forma{
+        margin-top: 2000px;
     }
 
     #image {
@@ -199,9 +206,14 @@ footer {
         width: 370px;
         height: 150px;
     }
-
     .logo h1{
         margin-left: 50px;
+    }
+    table{
+        margin-top: -2250px;
+    }
+    footer {
+        height: 100px;
     }
 
 }
